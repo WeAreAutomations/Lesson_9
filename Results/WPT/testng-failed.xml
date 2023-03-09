@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Dex-Trade Regression(failed)">
+    <parameter name="preferredBrowser" value="Firefox"/>
+    <parameter name="StartUrlLogin" value="https://rozetka.com.ua"/>
+    <classes>
+      <class name="Tests.Test_1">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.Test_1 -->
+    </classes>
+  </test> <!-- Dex-Trade Regression(failed) -->
+</suite> <!-- Failed suite [WPT] -->
